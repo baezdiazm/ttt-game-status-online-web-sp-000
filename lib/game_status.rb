@@ -34,23 +34,17 @@ def full?(board)
 end
 
 def draw?(board)
-<<<<<<< HEAD
   !won?(board) && full?(board)
-=======
   !won?(board) || full?(board)
->>>>>>> fb21a2808478f3a23b2a53ccc29bb470bd2dde97
 end
 
 def over?(board)
   won?(board) || draw?(board)
 
 end
-<<<<<<< HEAD
 
 def winner(board)
   if won?(board)
     board[won?(board)[0]]
   end
 end
-=======
->>>>>>> fb21a2808478f3a23b2a53ccc29bb470bd2dde97
